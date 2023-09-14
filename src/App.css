@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary: #3b71fe;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'DM Sans', sans-serif !important;
+    font-weight: 300 !important;
+}
+
+/* customizing button */
+/* card-part-starts */
+.blog-page .card {
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .08), 0 4px 12px rgba(0, 0, 0, .05);
+    border-radius: 20px;
+    margin: 40px 0;
+}
+
+.blog-page .card-image {
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* card-part-ends */
+
+/* post-part-starts */
+.post-title,
+.section-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.post-para {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #5E6D77;
+}
+
+/* post-part-ends */
+
+/* search-bar-starts */
+
+.search-input {
+    border: none;
+}
+
+input.search-input:focus-visible {
+    outline: none;
+}
+
+.search-part {
+    background: #f7f8fa;
+    border-radius: 20px;
+    padding: 30px 20px;
+    margin-bottom: 30px;
+
+}
+
+.search-bar {
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .08), 0 4px 12px rgba(0, 0, 0, .05);
+    border-radius: 80px;
+    border: 0;
+    padding: 18px 6px 18px 30px;
+    position: relative;
+}
+
+.search-btn {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    background: rgb(66, 66, 241);
+    border: none;
+    border-radius: 50px;
+    top: 6px;
+    right: 6px;
+    line-height: 50px;
+}
+
+/* search-bar-ends */
+
+/* .side-bar-right-starts */
+.side-bar-right {
+    margin: 40px 0;
+}
+
+.sidebar-widget-topic {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+    color: var(--heading-color, #1A2B48);
+    border-bottom: 1px solid #dedede;
+    margin-bottom: 20px;
+    padding-bottom: 16px;
+    width: 100%;
+}
+
+.magnifying-glass {
+    color: #fcfcfc;
+}
+
+.thumbnail {
+    width: 80px;
+    height: 80px;
+}
+
+.sidebar-widget {
+    background: #f7f8fa;
+    border-radius: 20px;
+    padding: 30px 20px;
+    margin-bottom: 30px;
+}
+
+.thumb-list-title {
+    font-size: 14px;
+    line-height: 22px;
+    padding-bottom: 10px;
+}
+
+.thumb-list-date {
+    color: var(--grey-color, #5E6D77);
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 22px;
+}
